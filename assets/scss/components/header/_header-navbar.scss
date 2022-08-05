@@ -22,9 +22,12 @@
 
   &__link {
     display: block;
+
     padding: $gap $gap-sm;
+
     transition: color 0.5s;
     letter-spacing: 0.09em;
+
     font-size: 18px;
 
     &:hover,
