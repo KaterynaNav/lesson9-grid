@@ -16,6 +16,7 @@ html {
 
 body {
   letter-spacing: 0.1em;
+
   color: $color-primary;
   background-color: $color-light;
 }
@@ -31,11 +32,9 @@ h1 {
   @include lg-min {
     font-size: 3.75rem;
   }
-
   @include lg-md {
     font-size: 2.5rem;
   }
-
   @include md {
     font-size: 1.875rem;
   }
