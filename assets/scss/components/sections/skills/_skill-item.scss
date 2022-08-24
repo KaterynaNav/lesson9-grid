@@ -17,9 +17,11 @@
     @include md-min {
       font-size: 1.25rem;
     }
+
     @include md {
       font-size: 1.175rem;
     }
+
     @include abs-position;
   }
 
@@ -27,7 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    letter-spacing: 2px;
     height: 100%;
     padding: 1em;
 
