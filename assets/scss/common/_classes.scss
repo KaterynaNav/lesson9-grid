@@ -24,12 +24,12 @@
 
   @include lg-md {
     min-width: 200px;
-    height: 60px;
+    height: 50px;
   }
 
   @include md {
     min-width: 170px;
-    height: 60px;
+    height: 40px;
   }
 
   &:hover,

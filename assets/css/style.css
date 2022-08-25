@@ -597,9 +597,9 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  letter-spacing: 2px;
+  letter-spacing: 1.8px;
   height: 100%;
-  padding: 1em;
+  padding: 20px;
   -webkit-transition: color 0.5s;
   -o-transition: color 0.5s;
   transition: color 0.5s;
@@ -721,6 +721,7 @@ p {
 }
 .form .btn--primary {
   width: 100%;
+  height: 60px;
   color: #ffffff;
   border-color: rgba(255, 255, 255, 0);
   border-bottom-color: rgba(255, 255, 255, 0.2);
@@ -766,6 +767,7 @@ p {
   border-color: rgba(255, 255, 255, 0.15);
   border-bottom-color: #ffffff;
   background-color: rgba(255, 255, 255, 0.15);
+  outline: none;
 }
 .form-item__input:hover::-webkit-input-placeholder, .form-item__input:focus::-webkit-input-placeholder {
   color: #8c9bab;
@@ -1031,7 +1033,7 @@ p {
   }
   .btn {
     min-width: 200px;
-    height: 60px;
+    height: 50px;
   }
   .header-content__title {
     margin: 0 0 43px;
@@ -1062,7 +1064,7 @@ p {
   }
   .btn {
     min-width: 170px;
-    height: 60px;
+    height: 40px;
   }
   .header-content__title {
     margin: 0 0 33px;
@@ -1092,7 +1094,7 @@ p {
     padding: 10px 20px;
   }
   .skill-item__title {
-    font-size: 1.175rem;
+    font-size: 1.125rem;
   }
 }
 @media (max-width: 767.8px) and (min-width: 576px) {
